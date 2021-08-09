@@ -1,0 +1,25 @@
+{
+    "name": "abdeslam/reading-time-estimator",
+    "description": "PHP text reading time estimator",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abdeslam\\ReadingTimeEstimator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdeslam gacemi",
+            "email": "abdobling@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
